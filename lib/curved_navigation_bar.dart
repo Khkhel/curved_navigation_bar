@@ -148,7 +148,7 @@ class CurvedNavigationBarState extends State<CurvedNavigationBar>
                     children: widget.items.map((item) {
                   return NavButton(
                     onTap: _buttonTap,
-                    position: _pos * 2,
+                    position: _pos * 1.5,
                     length: _length,
                     index: widget.items.indexOf(item),
                     child: Center(child: item),
